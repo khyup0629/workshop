@@ -2,7 +2,11 @@
 
 ## 럭키 마블 룰렛 (`marble-roulette/`)
 
-참가자 이름을 넣고 구슬 레이스로 당첨자를 뽑는 추첨 페이지예요. 빌드 과정이 없는 HTML 파일 한 개라서 `marble-roulette/index.html`을 브라우저로 열면 바로 실행돼요.
+참가자 이름을 넣고 구슬 레이스로 당첨자를 뽑는 추첨 페이지예요.
+
+**바로 실행: https://khyup0629.github.io/workshop/**
+
+GitHub Pages가 `main` 브랜치를 그대로 배포해요. 루트의 `index.html`은 `marble-roulette/`로 넘겨 주는 안내 페이지이고, `.nojekyll`은 Jekyll 변환 없이 파일을 그대로 올리라는 표시예요. 게임은 빌드 과정이 없는 HTML 파일 한 개라서 `marble-roulette/index.html`을 브라우저로 바로 열어도 실행돼요.
 
 - 참가자 추가: 이름을 입력하고 Enter. 쉼표나 줄바꿈으로 여러 명을 한 번에 넣을 수 있고, `이름*3`처럼 쓰면 그 사람의 구슬이 3개가 돼요.
 - 당첨 방식: 결승선을 먼저 넘은 순서(먼저 도착) 또는 끝까지 남은 순서(꼴찌 당첨). 당첨 인원도 정할 수 있어요.
